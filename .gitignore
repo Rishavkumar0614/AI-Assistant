@@ -43,10 +43,8 @@ app.*.map.json
 /android/app/release
 
 pubspec.lock
-
 firebase.json
 .flutter-plugins
-lib/services/Gemini/api_key.dart
 lib/firebase_options.dart
-lib/services/Chat GPT/secret_key.dart
 .flutter-plugins-dependencies
+lib/services/Gemini/api_key.dart
