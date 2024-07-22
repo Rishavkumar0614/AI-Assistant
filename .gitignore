@@ -1,13 +1,13 @@
 # Miscellaneous
-*.class
 *.log
 *.pyc
 *.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
 .svn/
+.atom/
+*.class
+.history
+.DS_Store
+.buildlog/
 migrate_working_dir/
 
 # IntelliJ related
@@ -22,14 +22,15 @@ migrate_working_dir/
 #.vscode/
 
 # Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
 .pub/
 /build/
+**/doc/api/
+.dart_tool/
+.pub-cache/
+pubspec.lock
+.flutter-plugins
+.flutter-plugins-dependencies
+**/ios/Flutter/.last_build_id
 
 # Symbolication related
 app.*.symbols
@@ -42,17 +43,18 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+# Platform Specific Files. Generated Automatically by NodeJS, So No Need to be Version Controlled.
 web/
 ios/
 macos/
 linux/
 android/
 windows/
-pubspec.lock
+
+# Firebase Generated Files
 firebase.json
-.flutter-plugins
-ai_assistant.iml
 lib/firebase_options.dart
-.flutter-plugins-dependencies
+
+# Secret Keys
 lib/services/Gemini/api_key.dart
 lib/services/Chat GPT/secret_key.dart
