@@ -42,9 +42,17 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
+web/
+ios/
+macos/
+linux/
+android/
+windows/
 pubspec.lock
 firebase.json
 .flutter-plugins
+ai_assistant.iml
 lib/firebase_options.dart
 .flutter-plugins-dependencies
 lib/services/Gemini/api_key.dart
+lib/services/Chat GPT/secret_key.dart
