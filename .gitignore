@@ -46,7 +46,7 @@ pubspec.lock
 
 firebase.json
 .flutter-plugins
-lib/Gemini/api_key.dart
+lib/services/Gemini/api_key.dart
 lib/firebase_options.dart
-lib/Chat GPT/secret_key.dart
+lib/services/Chat GPT/secret_key.dart
 .flutter-plugins-dependencies
